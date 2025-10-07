@@ -1,3 +1,7 @@
+
+
+
+//Creates a random number. based on amount it attributes a value of Rock Paper Scissors
 function getComputerChoice(){
     let i = Math.floor(Math.random()*100);
 
@@ -13,9 +17,9 @@ function getComputerChoice(){
 console.log(getComputerChoice())
 
 
+function getHumanChoice(){
+    let i = prompt("Please write Rock, Paper or Scissors") 
+        console.log(i);
 
-
-// When the browser loads the page, a number is randomly made ✓
-// grab the number and run it through an if statement ✓
-// return rock, paper or scissors depending on the random number generated. ✓
-// print new Value
+}
+ console.log(getHumanChoice());
