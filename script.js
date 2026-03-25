@@ -24,6 +24,8 @@ function getHumanChoice() {
 let humanScore = 0;
 let computerScore = 0;
 
+// Test :)
+
 
 function playRound(humanChoice, computerChoice) {
     // normalize human input
